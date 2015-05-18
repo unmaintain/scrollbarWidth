@@ -1,17 +1,24 @@
 {
-  "name": "scrollbarWidth",
+  "name": "scrollbarwidth",
   "version": "0.1.0",
+  "main": "scrollbarWidth.js",
   "description": "Get scrollbar width.",
   "repository": {
     "type": "git",
     "url": "https://github.com/felixexter/scrollbarWidth"
   },
   "keywords": [
-    "scroll",
+    "scrollbarWidth",
+    "plugin",
     "scrollbar",
-    "scrollbar-width"
+    "scrollbar-width",
+    "scroll"
   ],
-  "author": "felixexter",
+  "author": {
+    "name": "Felix Exter",
+    "email": "felixexter@ya.ru",
+    "url": "https://github.com/felixexter"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/felixexter/scrollbarWidth/issues"
