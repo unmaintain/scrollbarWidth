@@ -1,0 +1,29 @@
+{
+  "name": "scrollbarWidth",
+  "version": "0.1.0",
+  "description": "Get scrollbar width.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixexter/scrollbarWidth"
+  },
+  "keywords": [
+    "scroll",
+    "scrollbar",
+    "scrollbar-width"
+  ],
+  "author": "felixexter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixexter/scrollbarWidth/issues"
+  },
+  "homepage": "https://github.com/felixexter/scrollbarWidth",
+  "dependencies": {
+    "gulp": "^3.8.5",
+    "gulp-jscs": "^1.1.2",
+    "gulp-jshint": "^1.8.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}
