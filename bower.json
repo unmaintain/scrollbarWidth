@@ -1,0 +1,26 @@
+{
+  "name": "scrollbarWidth",
+  "main": "scrollbarWidth.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/felixexter/scrollbarWidth",
+  "authors": [
+    "felixexter <felixexter@ya.ru>"
+  ],
+  "description": "Get scrollbar width.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "scroll",
+    "scrollbar",
+    "scrollbar-width"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "!scrollbarWidth.js",
+    "!scrollbarWidth.min.js"
+  ]
+}
