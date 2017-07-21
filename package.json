@@ -24,7 +24,7 @@
     "url": "https://github.com/felixexter/scrollbarWidth/issues"
   },
   "homepage": "https://github.com/felixexter/scrollbarWidth",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^3.8.5",
     "gulp-jscs": "^1.1.2",
     "gulp-jshint": "^1.8.4",
