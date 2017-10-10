@@ -1,4 +1,4 @@
-/*! scrollbarWidth.js v0.1.0 | felixexter | MIT | https://github.com/felixexter/scrollbarWidth */
+/*! scrollbarWidth.js v0.1.2 | felixexter | MIT | https://github.com/felixexter/scrollbarWidth */
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		define([], factory);
@@ -11,6 +11,10 @@
 	'use strict';
 
 	function scrollbarWidth() {
+		if (typeof document === 'undefined') {
+			return 0
+		}
+
 		var
 			body = document.body,
 			box = document.createElement('div'),
