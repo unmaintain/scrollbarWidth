@@ -1,4 +1,4 @@
-/*! scrollbarWidth.js v0.1.2 | felixexter | MIT | https://github.com/felixexter/scrollbarWidth */
+/*! scrollbarWidth.js v0.1.3 | felixexter | MIT | https://github.com/felixexter/scrollbarWidth */
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		define([], factory);
