@@ -1,4 +1,4 @@
-/*! scrollbarWidth.js v0.1.3 | felixexter | MIT | https://github.com/felixexter/scrollbarWidth */
+/*! scrollbarWidth.js v0.1.4 | felixexter | MIT | https://github.com/felixexter/scrollbarWidth */
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		define([], factory);
@@ -12,7 +12,7 @@
 
 	function scrollbarWidth() {
 		if (typeof document === 'undefined') {
-			return 0
+			return 0;
 		}
 
 		var
@@ -21,14 +21,13 @@
 			boxStyle = box.style,
 			width;
 
-		boxStyle.position = 'absolute';
-		boxStyle.top = boxStyle.left = '-9999px';
-		boxStyle.width = boxStyle.height = '100px';
-		boxStyle.overflow = 'scroll';
+		boxStyle.position = 'fixed';
+		boxStyle.visibility = 'hidden';
+		boxStyle.overflowY = 'scroll';
 
 		body.appendChild(box);
 
-		width = box.offsetWidth - box.clientWidth;
+		width = box.getBoundingClientRect().right;
 
 		body.removeChild(box);
 
