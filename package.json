@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixexter/scrollbarWidth"
+    "url": "https://github.com/unmaintain/scrollbarWidth"
   },
   "keywords": [
     "scrollbarWidth",
@@ -19,15 +19,15 @@
     "scroll"
   ],
   "author": {
-    "name": "Felix Exter",
-    "email": "felixexter@ya.ru",
-    "url": "https://github.com/felixexter"
+    "name": "unmaintain",
+    "email": "unmaintain@gmail.com",
+    "url": "https://github.com/unmaintain"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felixexter/scrollbarWidth/issues"
+    "url": "https://github.com/unmaintain/scrollbarWidth/issues"
   },
-  "homepage": "https://github.com/felixexter/scrollbarWidth",
+  "homepage": "https://github.com/unmaintain/scrollbarWidth",
   "devDependencies": {
     "gulp": "^3.8.5",
     "gulp-jscs": "^1.1.2",
