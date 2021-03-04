@@ -2,9 +2,9 @@
   "name": "scrollbarWidth",
   "main": "scrollbarWidth.js",
   "version": "0.1.3",
-  "homepage": "https://github.com/felixexter/scrollbarWidth",
+  "homepage": "https://github.com/unmaintain/scrollbarWidth",
   "authors": [
-    "felixexter <felixexter@ya.ru>"
+    "unmaintain <unmaintain@gmail.com>"
   ],
   "description": "Get scrollbar width.",
   "moduleType": [
