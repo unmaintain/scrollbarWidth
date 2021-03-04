@@ -1,3 +1,5 @@
+> ### ⚠️ This project in not maintained! Fork for any improvements!
+
 # scrollbarWidth.js
 
 Get scrollbar width.
